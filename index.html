@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debounce Tech</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css">
+  <body>
+    <div class="content">
+      <div class="side-menu">
+        <ul class="menu">
+          <li data-target="one" class="active">one</li>
+          <li data-target="two">two</li>
+          <li data-target="three">three</li>
+          <li data-target="four">four</li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="lorem" id="one">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut dolores adipisci quos minus inventore omnis est et aspernatur eum ab dolor, quisquam dolorum quidem quaerat fugit fuga
+          suscipit ad ullam error. Harum, provident deleniti! Corporis nulla recusandae facilis unde magnam labore debitis saepe est doloremque quia, blanditiis eligendi eum accusantium neque
+          accusamus quasi laudantium ratione officiis atque dicta ducimus illum quisquam ad. Enim dolorum quidem quasi voluptatum nulla ab quos quo odio modi minima earum dolore, adipisci alias,
+          recusandae iste unde. Mollitia, vel suscipit cupiditate eaque maiores delectus corrupti aut reiciendis? Nulla soluta alias distinctio in, libero illum cum eos veritatis iusto! Labore quos
+          mollitia omnis ratione, officiis aperiam adipisci corporis inventore nesciunt laboriosam in doloribus perferendis esse eligendi magni officia dolores, ea accusantium aut numquam sed cum ex.
+          Aperiam rem eius sed, eum consequatur exercitationem, tempore quo accusantium ad eaque fugiat nam nulla aut officiis eveniet architecto. Natus impedit, perspiciatis corrupti soluta minima
+          aliquam ratione quod quae dolores, magnam blanditiis autem in deleniti reprehenderit quo magni ex amet molestiae harum illo eligendi. Reiciendis ratione nam, nemo illum nisi sit pariatur,
+          quos laborum aut in quod suscipit ea quo provident praesentium repellat molestiae minus! Inventore unde soluta fuga aspernatur!
+        </div>
+        <div class="lorem" id="two">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut dolores adipisci quos minus inventore omnis est et aspernatur eum ab dolor, quisquam dolorum quidem quaerat fugit fuga
+          suscipit ad ullam error. Harum, provident deleniti! Corporis nulla recusandae facilis unde magnam labore debitis saepe est doloremque quia, blanditiis eligendi eum accusantium neque
+          accusamus quasi laudantium ratione officiis atque dicta ducimus illum quisquam ad. Enim dolorum quidem quasi voluptatum nulla ab quos quo odio modi minima earum dolore, adipisci alias,
+          recusandae iste unde. Mollitia, vel suscipit cupiditate eaque maiores delectus corrupti aut reiciendis? Nulla soluta alias distinctio in, libero illum cum eos veritatis iusto! Labore quos
+          mollitia omnis ratione, officiis aperiam adipisci corporis inventore nesciunt laboriosam in doloribus perferendis esse eligendi magni officia dolores, ea accusantium aut numquam sed cum ex.
+          Aperiam rem eius sed, eum consequatur exercitationem, tempore quo accusantium ad eaque fugiat nam nulla aut officiis eveniet architecto. Natus impedit, perspiciatis corrupti soluta minima
+          aliquam ratione quod quae dolores, magnam blanditiis autem in deleniti reprehenderit quo magni ex amet molestiae harum illo eligendi. Reiciendis ratione nam, nemo illum nisi sit pariatur,
+          quos laborum aut in quod suscipit ea quo provident praesentium repellat molestiae minus! Inventore unde soluta fuga aspernatur!
+        </div>
+        <div class="lorem" id="three">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut dolores adipisci quos minus inventore omnis est et aspernatur eum ab dolor, quisquam dolorum quidem quaerat fugit fuga
+          suscipit ad ullam error. Harum, provident deleniti! Corporis nulla recusandae facilis unde magnam labore debitis saepe est doloremque quia, blanditiis eligendi eum accusantium neque
+          accusamus quasi laudantium ratione officiis atque dicta ducimus illum quisquam ad. Enim dolorum quidem quasi voluptatum nulla ab quos quo odio modi minima earum dolore, adipisci alias,
+          recusandae iste unde. Mollitia, vel suscipit cupiditate eaque maiores delectus corrupti aut reiciendis? Nulla soluta alias distinctio in, libero illum cum eos veritatis iusto! Labore quos
+          mollitia omnis ratione, officiis aperiam adipisci corporis inventore nesciunt laboriosam in doloribus perferendis esse eligendi magni officia dolores, ea accusantium aut numquam sed cum ex.
+          Aperiam rem eius sed, eum consequatur exercitationem, tempore quo accusantium ad eaque fugiat nam nulla aut officiis eveniet architecto. Natus impedit, perspiciatis corrupti soluta minima
+          aliquam ratione quod quae dolores, magnam blanditiis autem in deleniti reprehenderit quo magni ex amet molestiae harum illo eligendi. Reiciendis ratione nam, nemo illum nisi sit pariatur,
+          quos laborum aut in quod suscipit ea quo provident praesentium repellat molestiae minus! Inventore unde soluta fuga aspernatur!
+        </div>
+        <div class="lorem" id="four">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut dolores adipisci quos minus inventore omnis est et aspernatur eum ab dolor, quisquam dolorum quidem quaerat fugit fuga
+          suscipit ad ullam error. Harum, provident deleniti! Corporis nulla recusandae facilis unde magnam labore debitis saepe est doloremque quia, blanditiis eligendi eum accusantium neque
+          accusamus quasi laudantium ratione officiis atque dicta ducimus illum quisquam ad. Enim dolorum quidem quasi voluptatum nulla ab quos quo odio modi minima earum dolore, adipisci alias,
+          recusandae iste unde. Mollitia, vel suscipit cupiditate eaque maiores delectus corrupti aut reiciendis? Nulla soluta alias distinctio in, libero illum cum eos veritatis iusto! Labore quos
+          mollitia omnis ratione, officiis aperiam adipisci corporis inventore nesciunt laboriosam in doloribus perferendis esse eligendi magni officia dolores, ea accusantium aut numquam sed cum ex.
+          Aperiam rem eius sed, eum consequatur exercitationem, tempore quo accusantium ad eaque fugiat nam nulla aut officiis eveniet architecto. Natus impedit, perspiciatis corrupti soluta minima
+          aliquam ratione quod quae dolores, magnam blanditiis autem in deleniti reprehenderit quo magni ex amet molestiae harum illo eligendi. Reiciendis ratione nam, nemo illum nisi sit pariatur,
+          quos laborum aut in quod suscipit ea quo provident praesentium repellat molestiae minus! Inventore unde soluta fuga aspernatur!
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
